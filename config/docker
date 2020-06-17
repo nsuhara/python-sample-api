@@ -1,0 +1,14 @@
+export PYTHONPATH='app/'
+export FLASK_APP='app/run.py'
+
+export DEBUG='1'
+export JSON_AS_ASCII='0'
+export SECRET_KEY='\xf7\xf4\x9bb\xd7\xa8\xdb\xee\x9f\xe3\x98SR\xda\xb0@\xb7\x12\xa4uB\xda\xa3\x1b'
+export STRIPE_API_KEY=''
+
+export SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://postgres:postgres@docker:5432/sample'
+export SQLALCHEMY_ECHO='1'
+export SQLALCHEMY_MAX_OVERFLOW='10'
+export SQLALCHEMY_POOL_SIZE='5'
+export SQLALCHEMY_POOL_TIMEOUT='30'
+export SQLALCHEMY_TRACK_MODIFICATIONS='0'
